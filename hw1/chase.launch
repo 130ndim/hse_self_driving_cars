@@ -1,0 +1,6 @@
+<launch>
+  <node pkg='turtlesim' type='turtlesim_node' name='runner'/>
+  <node pkg='rosservice' type='rosservice' name='spawn_chaser' args="call /spawn 3 3 1.57 'turtle2'"/>
+  <node pkg='turtlesim' type='turtle_teleop_key' name='runner_key'/>
+  <node pkg='turtle_chaser' type='chase.py' name='chase'/>
+</launch>
