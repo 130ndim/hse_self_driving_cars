@@ -1,0 +1,6 @@
+<launch>
+    <node pkg='rqt_graph' type='rqt_graph' name='rqt_graph' />
+    <node pkg="rosbag" type="play" name="rosbag" args="$(dirname)/data/2011-01-25-06-29-26.bag"/>
+    <node pkg='scan' type='scan_node.py' name='filter_n_map' />
+    <node pkg='rviz' type='rviz' name='rviz' args="-d $(dirname)/config.rviz" />
+</launch>
