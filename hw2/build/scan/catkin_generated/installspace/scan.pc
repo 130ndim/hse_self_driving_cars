@@ -1,0 +1,8 @@
+prefix=/Users/dmitry/PycharmProjects/hse_self_driving/hw2/install
+
+Name: scan
+Description: Description of scan
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

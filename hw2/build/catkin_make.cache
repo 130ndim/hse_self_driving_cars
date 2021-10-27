@@ -1,0 +1,2 @@
+scan
+-DCATKIN_DEVEL_PREFIX=/Users/dmitry/PycharmProjects/hse_self_driving/hw2/devel -DCMAKE_INSTALL_PREFIX=/Users/dmitry/PycharmProjects/hse_self_driving/hw2/install -G Unix Makefiles
